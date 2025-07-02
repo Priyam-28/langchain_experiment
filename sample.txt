@@ -1,0 +1,5 @@
+LangGraph is an open-source framework built on top of LangChain that enables the creation of stateful, multi-step applications using language models. It introduces a graph-based architecture where nodes represent operations (like calling an LLM or a tool), and edges define transitions based on outputs or conditions.
+
+This allows developers to build complex reasoning workflows, with capabilities such as branching logic, tool integration, memory management, and human-in-the-loop control. LangGraph supports persistence of state, making it easier to build agents that retain context and handle iterative interactions.
+
+It is ideal for use cases such as question answering, document summarization, customer support bots, and intelligent tutoring systems. LangGraph integrates seamlessly with LangChain tools and agents, providing flexibility, composability, and robustness.
